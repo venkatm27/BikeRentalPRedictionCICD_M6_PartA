@@ -28,9 +28,9 @@ jobs:
       run: | 
         black bikeshare_project/bikeshare_model/*.py 
       
-    # name: linting with pylint 
-    #  run: | 
-     # pylint bikeshare_project/bikeshare_model/*.py
+    - name: linting with pylint 
+      run: | 
+        pylint --disable=R,C bikeshare_project/bikeshare_model/*.py
     
     - name: Train pipeline 
       run: | 
