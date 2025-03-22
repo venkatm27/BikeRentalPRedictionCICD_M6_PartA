@@ -11,7 +11,7 @@ import numpy as np
 from bikeshare_model import __version__ as _version
 from bikeshare_model.config.core import config
 from bikeshare_model.processing.data_manager import load_pipeline
-from bikeshare_model.processing.data_manager import pre_pipeline_preparation
+#from bikeshare_model.processing.data_manager import pre_pipeline_preparation
 from bikeshare_model.processing.validation import validate_inputs
 
 
